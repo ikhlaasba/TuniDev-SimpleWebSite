@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    min-height:100vh;
+    background: url('imagess/coding.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.wrapper{
+    width:420px;
+    background:transparent;
+    box-shadow: purple;
+    color:#fff;
+    border-radius: 20px;
+    padding: 30px 40px;
+    background: rgba(255, 105, 180, 0.3); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    
+}
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+}
+.wrapper .input-box{
+    position: relative;
+    width:100%;
+    height:50px;
+    margin: 30px;
+    color: #fff;
+}
+.input-box input{
+    width:89%;
+    height:100%;
+    background: transparent;
+    outline: none;
+    border:2px solid rgba(3);
+    border-radius: 30px;
+    border-color: antiquewhite;
+    font: 25px;
+    color: #fff;
+    padding: 20px 40px 20px 20px;
+}
+.input-box input::placeholder{
+    color:#fff;
+}
+.input-box i{
+    position:absolute;
+    right:70px;
+    top:50%;
+    transform: translateY(-50%);
+    font: size 20px;
+}
+.wrapper .recuperer_pwd{
+    display:flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin:-15px 0 15px;
+}
+.recuperer_pwd label input{
+    accent-color:#fff;
+    margin-right: 3px;
+}
+.recuperer_pwd a{
+    color: #fff;
+    text-decoration: none;
+}
+.recuperer_pwd a:hover{
+    text-decoration: underline;
+}
+.wrapper .bt{
+    width:100%;
+    height:45px;
+    background: #fff;
+    border:none;
+    outline:none;
+    border-radius: 40px;
+    box-shadow:0 0 10px rgba(0,0,0,1);
+    cursor: pointer;
+    font-size: 16px;
+    color: rgb(27, 21, 28);
+    font-weight: 600;
+    margin: 12px;
+}
+.wrapper .bt1{
+    margin: 12px;
+    width:100%;
+    height:45px;
+    background: #fff;
+    border:none;
+    outline:none;
+    border-radius: 40px;
+    box-shadow:0 0 10px rgba(0,0,0,1);
+    cursor: pointer;
+    font-size: 16px;
+    color: rgb(12, 10, 12);
+    font-weight: 600;
+}
+
+.wrapper .bt2{
+    margin: 12px;
+    width:100%;
+    height:45px;
+    background: #fff;
+    border:none;
+    outline:none;
+    border-radius: 40px;
+    box-shadow:0 0 10px rgba(0,0,0,1);
+    cursor: pointer;
+    font-size: 16px;
+    color: rgb(15, 14, 16);
+    font-weight: 600;
+}
+.bi-google::before {
+}
+.bi-facebook::before {
+    color: blue;
+}
+.wrapper .lien_inscri{
+    font-size:14.5px;
+    text-align: center;
+    margin-top: 20px;
+}
+.lien_inscri p a{
+    color:#fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.lien_inscri p a:hover{
+    text-decoration: underline;
+}

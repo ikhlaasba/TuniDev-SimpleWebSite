@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-compatible" content ="IE-edge">
+    <title>Inscription</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="inscription.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="titre">
+            Inscription
+        </h1>
+        <form action="#">
+            <div class="informations">
+            <div class="input1">
+                <i class="bi bi-person-fill"></i>
+                <label for="NomComplet">Nom et Prénom</label>
+                <input type="text" id="NomComplet" name="NomComplet" placeholder="entrer votre nom complet">
+            </div>     
+            </div>
+
+                <div class="input1">
+                    <i class="bi bi-envelope-at-fill"></i>
+                    <label for="email">E-mail</label>
+                    <input type="text" id="email" name="email" placeholder="entrer votre E-mail">
+                </div> 
+
+            <div class="input1">
+                <i class="bi bi-telephone-fill"></i>
+                <label for="tel">Téléphone</label>
+                <input type="tel" id="tel" name="tel" placeholder="entrer votre numéro">
+            </div>  
+            
+            <div class="input1">
+                <i class="bi bi-lock-fill"></i>
+                <label for="pwd">Mot de passe</label>
+                <input type="text" id="pwd" name="pwd" placeholder="créez un Mot de passe">
+            </div>
+
+            <div class="input1">
+                <label for="dn">Date de naissance</label>
+                <input type="date" id="dn" name="dn" >
+            </div>
+
+            <div class="input1">
+                <label for="liste">Statut</label>
+                <select name="liste" id="liste" >
+                    <option >Lycéen</option>
+                    <option >Etudiant en informatique</option>
+                    <option >Jeune diplomé(e)</option>
+                    <option >En recherche d'emploi</option>
+                    <option >déja employé</option>
+                    <option >autre</option>
+                </select>
+            </div>
+
+            <div class="input2">
+                <label for="gender">sexe</label>
+                <input type="radio" id="homme" name="gender" >
+                <label for="homme">Homme</label>
+                <input type="radio" id="femme" name="gender" >
+                <label for="Femme">Femme</label>
+            </div>
+
+                <button type="submit" class="bt">s'inscrire</button>
+                <button type="submit" class="bt1"><i class="bi bi-google"></i>    Continuer avec Google</button>
+
+        </form>
+    </div>
+</body>
